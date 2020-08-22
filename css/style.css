@@ -1,0 +1,88 @@
+html,
+body,
+header {
+  height: 95%;
+}
+
+h5 {
+  font-family: 'Satisfy', cursive;
+}
+.navbar-brand img {
+  margin-left: 0px;
+}
+#intro {
+  background: url('../public/img/zuly-bngv5.jpeg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 91.8%;
+}
+
+#intro::before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 99%;
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
+#contact {
+  background: url('../public/img/zuly-bngv5.jpeg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 91.8%;
+}
+
+#contact::before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 99%;
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
+.BackToTopNav {
+  display: flex;
+
+  height: 30px;
+  width: auto;
+  background-color: #24355c;
+}
+
+.companyText h1 {
+  margin: 25px auto;
+  text-align: center;
+  color: white;
+}
+
+.BackToTopNav span {
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  justify-self: center;
+}
+
+.top-nav-collapse {
+  background-color: #24355c;
+}
+
+@media (max-width: 768px) {
+  .navbar:not(.top-nav-collapse) {
+    background-color: #24355c;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) {
+    background-color: #24355c;
+  }
+}
